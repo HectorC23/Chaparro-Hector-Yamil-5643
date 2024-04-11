@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    
+
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <header>
+        
+        <div class="cont-logo">
+            <img class="logo" src="./img/logo-poder.png" alt="Logo de Pedimon">
+            <p>
+                PODER JUDICIAL DE LA PROVINCIA DE JUJUY
+            </p>
+        
+        </div>
+
+        <nav>
+            <ul class="list-nav">
+                <li class="item-nav"><a href="./index.html" class="a-nav">INICIO</a></li>
+                <li class="item-nav"><a href="./blog.html" class="a-nav">BLOG</a></li>
+                <li class="item-nav"><a href="./formulario.html" class="a-nav">FORMULARIO</a></li>
+                <li class="item-nav"><a href="./noticias.html" class="a-nav">NOTICIAS</a></li>
+                <li class="item-nav"><i class="fa-solid fa-cart-shopping icono-carrito"></i></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+        <form action="">
+
+            
+
+            <p class="advertencia">Los datos suministrados en este formulario tienen CARÁCTER DE DECLARACION JURADA y seran tratados de forma reservada</p>
+
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="apellido"> Apellido </label>
+                <div class="cont-input">
+                    <input required type="text" name="name" id="apellido">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="nombre"> Nombre </label>
+                <div class="cont-input">
+                    <input required type="text" name="name" id="nombre">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="numero"> Tipo/Número </label>
+                <div class="cont-input">
+                    <select required name="tipo" id="tipo">
+                        <option selected value="DNI">DNI</option>
+                        <option value="NIF">NIF</option>
+                        <option value="CIF">CIF</option>
+                        <option value="LE">LE</option>
+                        <option value="LC">LC</option>
+                        <option value="CI">CI</option>
+                    </select>
+                    -
+                    <input type="number" name="numero" id="numero">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="nacimiento"> Fecha de Nacimiento </label>
+                <div class="cont-input">
+                    <input required type="date" name="nacimiento" id="nacimiento">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="sexo"> Sexo </label>
+                <div class="cont-input">
+                    <select required name="sexo" id="sexo">
+                        <option selected value="no">No deseo informar este dato</option>
+                        <option value="masculino">masculino</option>
+                        <option value="femenino">femenino</option>
+                        <option value="x">X</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="estado"> Estado Civil </label>
+                <div class="cont-input">
+                    <select required name="estado" id="estado">
+                        <option selected value="nada">................</option>
+                        <option value="soltero">soltero</option>
+                        <option value="casado">casado</option>
+                        <option value="viudo">viudo</option>
+                        <option value="divorciado">divorciado</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="cuit"> N° de cuit </label>
+                <div class="cont-input">
+                    <input required type="number" name="cuit" id="cuit">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="domicilio"> Domicilio Real </label>
+                <div class="cont-input">
+                    <input required type="text" name="domicilio" id="domicilio">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="telefono"> Teléfono </label>
+                <div class="cont-input">
+                    <input type="number" name="telefono" id="telefono">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="ocupacion"> Ocupación </label>
+                <div class="cont-input">
+                    <select required name="ocupacion" id="ocupacion">
+                        <option selected value="nada">Seleccione...</option>
+                        <option value="nn">NiNi</option>
+                        <option value="estudio">estudio</option>
+                        <option value="trabajo">trabajo</option>
+                        <option value="estudiaytrabaja">estudia y trabaja</option>
+                        <option value="desempleado">desempleado</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="matricula"> Matricula Profesional </label>
+                <div class="cont-input">
+                    <input required type="text" name="matricula" id="matricula">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="domlaboral"> Domicilio laboral </label>
+                <div class="cont-input">
+                    <input type="text" name="domlaboral" id="domlaboral">
+                </div>
+            </div>
+            <div class="cont-label">
+                <p class="requerido">*</p>
+                <label for="titulop"> Título 1 </label>
+                <div class="cont-input">
+                    <input required type="text" name="titulop" id="titulop">
+                </div>
+            </div>
+            <div class="cont-label">
+                <label for="titulos"> Título 2 </label>
+                <div class="cont-input">
+                    <input type="text" name="titulos" id="titulos">
+                </div>
+            </div>
+
+            <div class="cont-btn">
+
+                <button id="btn" type="submit">ENVIAR</button>
+            </div>
+
+        </form>
+
+
+    </main>
+
+    
+
+    <footer>
+
+        <div class="cont-footer">
+            <h3>Informacion de contacto</h3>
+            <p>Jujuy, Argentina</p>
+            <p>0388-4988536</p>
+            <p>prensa@justiciajujuy.gov.ar</p>
+        </div>
+
+        <div class="cont-footer">
+            <h3>Enlaces de interes</h3>
+            <p>Poderes Judiciales</p>
+            <p>Provincia de Jujuy</p>
+            <p>Nacionales</p>
+            <p>Internacionales</p>
+        </div>
+
+        <div class="cont-footer">
+            <h3>Estadisticas de Visitas</h3>
+            <ul>
+                <li>Usuarios online: 10</li>
+                <li> Visitas hoy: 3.847</li>
+                <li> Visitantes hoy: 1.261</li>
+                <li> Visitas de ayer: 5.091</li>
+                <li> Visitas los últimos 7 días: 29.820</li>
+                <li> Visitas los últimos 30 días: 101.871</li>
+                <li> Visitas los últimos 365 días: 1.037.736</li>
+                <li> Total de visitas: 2.753.131</li>
+            </ul>
+        </div>
+
+    </footer>
+    
+    
+</body>
+</html>
